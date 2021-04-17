@@ -21,5 +21,5 @@ def process():
 	return jsonify({'error' : 'Missing data!'})
 
 if __name__ == '__main__':
-	print('starting ...')
+	print('test')
 	app.run(debug=True)
